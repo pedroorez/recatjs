@@ -1,0 +1,19 @@
+.title-trilho {
+    display: inline-block;
+    font-family: "Din Medium";
+    font-size: 1.5em;
+    color: #000000;
+    text-transform: uppercase;
+    border-bottom: 2px solid #c8181b;
+    padding: 0 0px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+}
+
+@media only screen and (max-width: 500px){
+    .card-body .card-title {
+        font-size: 0.7rem !important;
+    }
+}
+
+    

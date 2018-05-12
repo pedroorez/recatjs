@@ -1,0 +1,26 @@
+.navbar-brand i {
+    height: 65px;
+    background: url(../images/logo-ei.png) no-repeat 0 0;
+    width: 126px;
+    height: 78px; 
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #545454;
+    font-family: "Din Alternate Medium";
+    transition: color 300ms linear;
+    -webkit-transition: color 300ms linear;
+    -moz-transition: color 300ms linear;
+    -ms-transition: color 300ms linear;
+    -o-transition: color 300ms linear;
+}
+
+.navbar a:hover {
+    color: #c8181b;
+  }
+
+.mr-auto {
+    margin-right: unset !important;
+    margin-left: auto !important;
+}

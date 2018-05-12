@@ -1,0 +1,64 @@
+@import '_settings.scss';
+@import '_base.scss';
+@import './components/_header.scss';
+
+@font-face {
+    font-family: 'Din Alternate Regular';
+    src: url('./fonts/DIN-RegularAlternate_gdi.eot');
+    src: url('./fonts/DIN-RegularAlternate_gdi.eot?#iefix') format('embedded-opentype'), url('./fonts/DIN-RegularAlternate_gdi.woff') format('woff'), url('./fonts/DIN-RegularAlternate_gdi.ttf') format('truetype'), url('./fonts/DIN-RegularAlternate_gdi.otf') format('opentype'), url('./fonts/DIN-RegularAlternate_gdi.svg#DIN-RegularAlternate') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Din Alternate Medium';
+    src: url('./fonts/DIN-MediumAlternate_gdi.eot');
+    src: url('./fonts/DIN-MediumAlternate_gdi.eot?#iefix') format('embedded-opentype'), url('./fonts/DIN-MediumAlternate_gdi.woff') format('woff'), url('./fonts/DIN-MediumAlternate_gdi.ttf') format('truetype'), url('./fonts/DIN-MediumAlternate_gdi.otf') format('opentype'), url('./fonts/DIN-MediumAlternate_gdi.svg#DIN-MediumAlternate') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Din Alternate Bold';
+    src: url('./fonts/DinAlternateBold.eot');
+    src: url('./fonts/DinAlternateBold.eot?#iefix') format('embedded-opentype'), url('./fonts/DinAlternateBold.ttf') format('truetype'), url('./fonts/DinAlternateBold.svg#ProximaNova') format('svg'), url('./fonts/DinAlternateBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Din Medium';
+    src: url('./fonts/DinMedium.eot');
+    src: url('./fonts/DinMedium.eot?#iefix') format('embedded-opentype'), url('./fonts/DinMedium.ttf') format('truetype'), url('./fonts/DinMedium.svg#ProximaNova') format('svg'), url('./fonts/DinMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Proxima Nova Semi-Bold';
+    src: url('./fonts/ProximaNova-Semibold.eot');
+    src: url('./fonts/ProximaNova-Semibold.eot?#iefix') format('embedded-opentype'), url('./fonts/ProximaNova-Semibold.ttf') format('truetype'), url('./fonts/ProximaNova-Semibold.svg#ProximaNova') format('svg'), url('./fonts/ProximaNova-Semibold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'FuturaStd Light';
+    src: url('./fonts/FuturaStd-Light.eot?#iefix') format('embedded-opentype'),  url('./fonts/FuturaStd-Light.otf')  format('opentype'),
+         url('./fonts/FuturaStd-Light.woff') format('woff'), url('./fonts/FuturaStd-Light.ttf')  format('truetype'), url('./fonts/FuturaStd-Light.svg#FuturaStd-Light') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'FuturaStd Book';
+    src: url('./fonts/FuturaStd-Book.eot?#iefix') format('embedded-opentype'),  url('./fonts/FuturaStd-Book.otf')  format('opentype'),
+         url('./fonts/FuturaStd-Book.woff') format('woff'), url('./fonts/FuturaStd-Book.ttf')  format('truetype'), url('./fonts/FuturaStd-Book.svg#FuturaStd-Book') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'FuturaStd Heavy';
+    src: url('./fonts/FuturaStd-Heavy.eot?#iefix') format('embedded-opentype'),  url('./fonts/FuturaStd-Heavy.otf')  format('opentype'),
+         url('./fonts/FuturaStd-Heavy.woff') format('woff'), url('./fonts/FuturaStd-Heavy.ttf')  format('truetype'), url('./fonts/FuturaStd-Heavy.svg#FuturaStd-Heavy') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  :root {
+    font-family: 'FuturaStd Book';
+  }

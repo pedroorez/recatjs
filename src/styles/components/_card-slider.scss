@@ -1,0 +1,68 @@
+.item {
+    .item-link {
+        
+        img {
+            width: 100%;
+            display: block;
+            min-height: 300px;
+            @media only screen and (max-width: 500px) {
+                min-height: 100px;
+            }
+        }
+
+        .item-text {
+            position: absolute;
+            bottom: 2px;
+
+            .item-title {
+                font-family: "Din Alternate Bold";
+                font-size: 2.5rem;
+                color: #ffffff;
+                padding-left: 8px;
+                text-shadow: 2px 2px black;
+                @media only screen and (max-width: 800px) {
+                    font-size: 1.5rem;
+                }    
+                @media only screen and (max-width: 500px) {
+                    font-size: 1.0rem;
+                }    
+            }
+    
+            .item-subtitle {
+                font-family: "Din Alternate Regular";
+                font-size: 1.5rem;
+                color: #ffffff;
+                padding: 0px 10px 10px 10px;
+                text-shadow: 2px 2px black;
+                @media only screen and (max-width: 800px) {
+                    font-size: 1rem;
+                }
+                @media only screen and (max-width: 500px) {
+                    font-size: 0.8rem;
+                }
+            }
+        }
+    }
+}
+
+.card {
+    .card-img-top{
+        min-height: 90px;
+    }
+}
+
+.card-body {
+    max-height: 100px;
+    height: 100px;
+    
+    .card-title {
+        text-overflow: ellipsis;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;
+        font-size: 15px;
+        text-align: center;
+        font-weight: bold;
+    }
+}
